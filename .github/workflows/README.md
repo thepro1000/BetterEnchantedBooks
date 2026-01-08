@@ -65,4 +65,4 @@ The workflow:
 
 Publishes the mod to Modrinth, CurseForge, and GitHub Releases.
 
-This workflow is manually triggered via workflow dispatch and requires appropriate secrets to be configured.
+This is a legacy workflow that is manually triggered via workflow dispatch. It builds and publishes from a specified branch and requires appropriate secrets (MODRINTH_TOKEN, CURSEFORGE_TOKEN, GITHUB_TOKEN) to be configured in the repository settings.
